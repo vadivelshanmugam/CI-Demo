@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint -c config.eslintrc -f checkstyle apps/**/* > checkstyle-result.xml"
   }
 }
